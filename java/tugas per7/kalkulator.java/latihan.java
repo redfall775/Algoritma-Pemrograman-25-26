@@ -11,7 +11,7 @@ System.out.println(nomor1 * nomor2);
 
 // b. Dinamis
 char operator;
-double nomor1, nomor2;
+double nomor1, nomor2;=====-
 Scanner input = new Scanner(System.in);
 
 System.out.print("Masukkan Operator (+ - * / %) = ");

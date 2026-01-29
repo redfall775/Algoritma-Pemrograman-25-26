@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "array",
+      "projectName": "Algoritma-Pemrograman-2025-2026_e5130672"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Algoritma-Pemrograman-2025-2026_e5130672"
+    },
+    {
+      "type": "java",
+      "name": "ATM",
+      "request": "launch",
+      "mainClass": "ATM",
+      "projectName": "Algoritma-Pemrograman-2025-2026_e5130672"
+    },
+    {
+      "type": "java",
+      "name": "Pola3",
+      "request": "launch",
+      "mainClass": "Pola3",
+      "projectName": "Algoritma-Pemrograman-2025-2026_e5130672"
+    },
+    {
+      "type": "java",
       "name": "SoalUAS4",
       "request": "launch",
       "mainClass": "UAS.SoalUAS4",

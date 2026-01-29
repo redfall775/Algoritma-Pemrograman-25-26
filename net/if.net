@@ -1,0 +1,37 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("=== PROGRAM CEK KELULUSAN .NET ===");
+
+        // Data yang mau kita cek
+        int nilaiUjian = 85;
+        int nilaiAbsen = 60;
+
+        // IF tingkat pertama: Cek Nilai Ujian
+        if (nilaiUjian >= 75)
+        {
+            Console.WriteLine("Nilai Ujian: LULUS");
+
+            // IF tingkat kedua (Nested IF): Walaupun nilai lulus, cek absen juga
+            if (nilaiAbsen >= 75)
+            {
+                Console.WriteLine("Status Akhir: LULUS TOTAL (Nilai & Absen Aman)");
+            }
+            else
+            {
+                Console.WriteLine("Status Akhir: GAGAL (Nilai bagus tapi absen kurang)");
+            }
+        }
+        else
+        {
+            // Kalau dari awal nilai ujian udah jeblok
+            Console.WriteLine("Nilai Ujian: GAGAL");
+            Console.WriteLine("Status Akhir: TIDAK LULUS");
+        }
+
+        Console.WriteLine("==================================");
+    }
+}
